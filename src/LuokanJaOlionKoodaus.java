@@ -15,6 +15,12 @@ public class LuokanJaOlionKoodaus {
 		auto.muutaTiedot("Ford", "Focus", "Bensa", 2700);
 		auto.tulostaTiedot();
 		
+		// Muodostetaan toinen olio Auto-luokasta
+		Auto auto2 = new Auto();
+		auto2.merkki = "Skoda";
+		auto2.malli = "Octavia";
+		System.out.println(auto2.merkki + " " + auto2.malli);
+		
 	}
 
 } // Main-luokan lopetus
