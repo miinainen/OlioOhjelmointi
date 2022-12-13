@@ -12,7 +12,7 @@ public class LuokanJaOlionKoodaus {
 		System.out.println(auto.merkki + " " + auto.malli);
 		
 		auto.Käynnisty();
-		auto.muutaTiedot("Ford", "Focus", "Bensa", 2300);
+		auto.muutaTiedot("Ford", "Focus", "Bensa", 2700);
 		auto.tulostaTiedot();
 		
 	}
